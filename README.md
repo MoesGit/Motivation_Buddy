@@ -49,7 +49,7 @@ Use the soldering iron to insert the Brass Inserts into the 4 holes in the base 
 - Gently screw in the 4 screws in each corner. 
    
 ## How to [Software]:
-1) Create a Google spreadsheet 
+1) Create a Google spreadsheet (See the [MotivationBuddy.xlsx](./Software/MotivationBuddy.xlsx) as template)
 2) Navigate to Extensions -> "Apps Script" (see image below)
 ![app](./Software/App_Setup.PNG)
 3) copy the [Google Doc Script](./Software/google_doc_excel_script.txt) into the Apps Script and enter the URL in the first line. 
