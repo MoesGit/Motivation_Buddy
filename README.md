@@ -3,11 +3,6 @@
 
 ![Graph1](./Packaging/Front.png)
 
-## TODOS: 
-- Change SSID, SPREADSHEET ID, Password to .h File
-- Change the Image loading to more user friendly software
-- Write Code Documentation
-- Write How to [Software]
 
 ## Required Hardware:
 - [ESP8266 D1 Mini](https://www.az-delivery.de/it/products/d1-mini-pro)
@@ -54,17 +49,37 @@ Use the soldering iron to insert the Brass Inserts into the 4 holes in the base 
 - Gently screw in the 4 screws in each corner. 
    
 ## How to [Software]:
-1) Google Spreadsheat
-
-2) Flashing the ESP8266
+1) Create a Google spreadsheet 
+2) Navigate to Extensions -> "Apps Script" (see image below)
+![app](./Software/App_Setup.PNG)
+3) copy the [Google Doc Script](./Software/google_doc_excel_script.txt) into the Apps Script and enter the URL in the first line. 
+4) Go to Deploy and then "new deployment"
+5) Select Web App and set the authorisation to "everyone" 
+6) Copy the generated code to the [settings.h](./Software/Motivation_Buddy_V2/settings.h) file at the variable "GOOGLE_SCRIPT_ID" . 
+7) At the  [settings.h](./Software/Motivation_Buddy_V2/settings.h) also enter your Wifi Network settings. 
+8) Kompile and Flash your [.ino Script](./Software/Motivation_Buddy_V2/Motivation_Buddy_V2.ino) to your ESP8266
 
 
 ## (Optional) Packaging
-1) "Product" Info-Card
-2) Cardboard Box
-3) Power Supply
+1) "Product" Info-Card </br>
+If you want to make the gadget look more like a product print out the [Front](./Packaging/Front.png) and [Back](./Packaging/Back.png) of the provided "Info"-Card. 
 
+2) Cardboard Box </br>
+Get a Box roughly the size of <19 x 12.5 x 4.5 cm>  
 
-Sources: 
+3) Power Supply </br>
+Get a power supply and put it in the box
+
+4) Print the inlay </br>
+3D Print the [inlay](./Packaging/inlay.stl) 
+
+5) Bubble Wrap </br>
+Bubble Wrap the Gadget and put it in the Inlay. 
+
+6) READY! </br>
+Send it out to your loved onces or Hustle-Buddies
+![packaging](./Packaging/packaging.png)
+
+### Sources: 
 Circuit Image: https://www.electronics-lab.com/project/network-clock-using-esp8266-oled-display/
 Project Inspired by: https://www.youtube.com/watch?v=0LoeaewIAdY

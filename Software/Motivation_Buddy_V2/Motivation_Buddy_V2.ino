@@ -14,15 +14,7 @@
 #include "igel_map.h"
 #include "wahl_map.h"
 #include "motivation_quotes.h" 
-
-/********************************************************************************/
-
-//Things to change
-//const char * ssid = "MiHotspot";
-//const char * password = "1234567890";
-const char * ssid = "XXXXX";        //Change to your "wifi-name"
-const char * password = "XXXXX";  //Change to your Passsword
-String GOOGLE_SCRIPT_ID = "XXXXX-sTUp_XP-_T8nXWlmXGj-qvyDlhKx";  //Change to Script ID 
+#include "settings.h"
 
 /********************************************************************************/
 
