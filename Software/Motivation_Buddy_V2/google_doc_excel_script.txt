@@ -1,5 +1,5 @@
-var ss = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/10_N4nuXHupbONZOH2cjgqTWPJeQJqCyCI_WutYVLkno/edit#gid=0');
-var sheet = ss.getSheetByName('RemotePartner_Debo');
+var ss = SpreadsheetApp.openByUrl('ENTER GOOGLE SPREADSHEET URL');
+var sheet = ss.getSheetByName('ENTER GOOGLE SPREADSHEET NAME HERE');
 
 function doPost(e) {
   var val = e.parameter.value;
@@ -14,6 +14,6 @@ function doGet(e){
   var read = e.parameter.read;
 
   if (read !== undefined){
-    return ContentService.createTextOutput(sheet.getRange('H4').getValue());
+    return ContentService.createTextOutput(sheet.getRange('H4').getValue()); // Change H4 to cell u want to use
   }
 }
