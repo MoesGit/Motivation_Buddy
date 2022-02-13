@@ -7,7 +7,6 @@
 - Change SSID, SPREADSHEET ID, Password to .h File
 - Change the Image loading to more user friendly software
 - Write Code Documentation
-- Write How to [Hardware]
 - Write How to [Software]
 
 ## Required Hardware:
@@ -28,31 +27,31 @@
 ### 1) 3D Printing  
 3D print the case and cover from the latest version in [3dModells](./3dModells/). I used the [colorFabb Steelfill PLA Filament](https://colorfabb.com/de/steelfill) for a High-Quality feeling and a bit of extra weight. 
 
-    Printer: 
-    - Ender 3 Pro
+Printer: 
+- Ender 3 Pro
     
-    Print Settings (Cura 4.12.1): 
-    - Steal Nozzel 0.6mm
-    - Bed Tmp: 60°
-    - Nozzle: 215°
-    - Speed: 50mm/s
-    - Support: Tree, touching build plate
-    - Retraction: 5mm
+Print Settings (Cura 4.12.1): 
+- Steal Nozzel 0.6mm
+- Bed Tmp: 60°
+- Nozzle: 215°
+- Speed: 50mm/s
+- Support: Tree, touching build plate
+ - Retraction: 5mm
 
 ### 2) Soldering  
-    Solder the display to the ESP8266 D1 mini as shown below: 
+Solder the display to the ESP8266 D1 mini as shown below: 
 
 ![solder_help](./OLED-Schematics.jpeg)
 image from [electronics-lab.com]( https://www.electronics-lab.com/project/network-clock-using-esp8266-oled-display/)
 
 ### 3) Inserts
-    Use the soldering iron to insert the Brass Inserts into the 4 holes in the base of the case. 
+Use the soldering iron to insert the Brass Inserts into the 4 holes in the base of the case. 
 
 ### 4) Asembly 
-    - Push the Oled display gently (but with a little bit of force) into the cover, so that the 4 pins of the oled align with the cutout in the back and only the display is visible from the front. 
-    - Put the ESP8622 into the casing and align it with the usb cutout. 
-    - Choose and orientation of the display-cover (it is a square so you can rotate it) and put it gently on top. Make sure the wires go around the WeMos Processor. 
-    - Gently screw in the 4 screws in each corner. 
+- Push the Oled display gently (but with a little bit of force) into the cover, so that the 4 pins of the oled align with the cutout in the back and only the display is visible from the front. 
+- Put the ESP8622 into the casing and align it with the usb cutout. 
+- Choose and orientation of the display-cover (it is a square so you can rotate it) and put it gently on top. Make sure the wires go around the WeMos Processor. 
+- Gently screw in the 4 screws in each corner. 
    
 ## How to [Software]:
 1) Google Spreadsheat
