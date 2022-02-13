@@ -1,8 +1,14 @@
 # Motivation_Buddy - WORK IN PROGRESS
+            A little IoT Device for Motivation and personal Messages. 
 
-A little IoT Device for Motivation and personal Messages 
+![Graph1](./Packaging/Front.png)
+
 ## TODOS: 
-- SSID
+- Change SSID, SPREADSHEET ID, Password to .h File
+- Change the Image loading to more user friendly software
+- Write Code Documentation
+- Write How to [Hardware]
+- Write How to [Software]
 
 
 ## Required Hardware:
