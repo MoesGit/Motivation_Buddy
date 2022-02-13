@@ -1,7 +1,8 @@
 # Motivation_Buddy - WORK IN PROGRESS
-            A little IoT Device for Motivation and personal Messages. 
-
+A little IoT Device for Motivation and personal Messages. </br>
+</br>
 ![Graph1](./Packaging/Front.png)
+(just for fun and definitely has no CE certificate)
 
 
 ## Required Hardware:
@@ -59,7 +60,7 @@ Use the soldering iron to insert the Brass Inserts into the 4 holes in the base 
 7) At the  [settings.h](./Software/Motivation_Buddy_V2/settings.h) also enter your Wifi Network settings. 
 8) Kompile and Flash your [.ino Script](./Software/Motivation_Buddy_V2/Motivation_Buddy_V2.ino) to your ESP8266
 
-
+9) (Optional) Change the Bitmaps to a image you like or create new .h-files with new bitmaps (dont forget to change the Switch-Case statement if you do). Images can be converted [here](https://diyusthad.com/image2cpp) (external converter for image to cpp bitmap)
 ## (Optional) Packaging
 1) "Product" Info-Card </br>
 If you want to make the gadget look more like a product print out the [Front](./Packaging/Front.png) and [Back](./Packaging/Back.png) of the provided "Info"-Card. 
