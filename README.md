@@ -1,9 +1,11 @@
-# Motivation_Buddy - WORK IN PROGRESS
+# Motivation_Buddy
 A little IoT Device for Motivation and personal Messages. </br>
 </br>
 ![Graph1](./Packaging/Front.png)
-(just for fun and definitely has no CE certificate)
+(just for fun and definitely has no CE certificate and not China Exportet since it is made at home (Please don't sue me. The Logo is just for fun :) ))
 
+## What is it?
+The Motivation Buddy is a little device, that can display a Motivation Quoate every hour or so. You can also hook it up to your WIFI to send messages and pre-set images to the screen. I designed this project as a gift. 
 
 ## Required Hardware:
 - [ESP8266 D1 Mini](https://www.az-delivery.de/it/products/d1-mini-pro)
@@ -83,4 +85,6 @@ Send it out to your loved onces or Hustle-Buddies
 
 ### Sources: 
 Circuit Image: https://www.electronics-lab.com/project/network-clock-using-esp8266-oled-display/
-Project Inspired by: https://www.youtube.com/watch?v=0LoeaewIAdY
+</br>
+Code Idea and Tutorial: https://www.youtube.com/watch?v=0LoeaewIAdY </br>
+Thingiverse Model inspirations: https://www.thingiverse.com/thing:857858
